@@ -1,0 +1,5 @@
+Interface
+DTO
+Entity == Model
+Repository == Service
+Resolvers == Controllers

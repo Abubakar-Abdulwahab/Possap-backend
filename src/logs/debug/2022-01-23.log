@@ -1,0 +1,2005 @@
+2022-01-23 17:43:43 info: =================================
+2022-01-23 17:43:43 info: ======= ENV: development =======
+2022-01-23 17:43:43 info: 🚀 App listening on the port 4000
+2022-01-23 17:43:43 info: 🎮 http://localhost:4000/graphql
+2022-01-23 17:43:43 info: =================================
+2022-01-23 17:47:58 info: =================================
+2022-01-23 17:47:58 info: ======= ENV: development =======
+2022-01-23 17:47:58 info: 🚀 App listening on the port 4000
+2022-01-23 17:47:58 info: 🎮 http://localhost:4000/graphql
+2022-01-23 17:47:58 info: =================================
+2022-01-23 17:48:37 info: =================================
+2022-01-23 17:48:37 info: ======= ENV: development =======
+2022-01-23 17:48:37 info: 🚀 App listening on the port 4000
+2022-01-23 17:48:37 info: 🎮 http://localhost:4000/graphql
+2022-01-23 17:48:37 info: =================================
+2022-01-23 17:52:59 info: =================================
+2022-01-23 17:52:59 info: ======= ENV: development =======
+2022-01-23 17:52:59 info: 🚀 App listening on the port 4000
+2022-01-23 17:52:59 info: 🎮 http://localhost:4000/graphql
+2022-01-23 17:52:59 info: =================================
+2022-01-23 17:53:36 info: =================================
+2022-01-23 17:53:36 info: ======= ENV: development =======
+2022-01-23 17:53:36 info: 🚀 App listening on the port 4000
+2022-01-23 17:53:36 info: 🎮 http://localhost:4000/graphql
+2022-01-23 17:53:36 info: =================================
+2022-01-23 17:55:48 info: =================================
+2022-01-23 17:55:48 info: ======= ENV: development =======
+2022-01-23 17:55:48 info: 🚀 App listening on the port 4000
+2022-01-23 17:55:48 info: 🎮 http://localhost:4000/graphql
+2022-01-23 17:55:48 info: =================================
+2022-01-23 21:10:36 info: =================================
+2022-01-23 21:10:36 info: ======= ENV: development =======
+2022-01-23 21:10:36 info: 🚀 App listening on the port 4000
+2022-01-23 21:10:36 info: 🎮 http://localhost:4000/graphql
+2022-01-23 21:10:36 info: =================================
+2022-01-23 21:14:10 info: =================================
+2022-01-23 21:14:10 info: ======= ENV: development =======
+2022-01-23 21:14:10 info: 🚀 App listening on the port 4000
+2022-01-23 21:14:10 info: 🎮 http://localhost:4000/graphql
+2022-01-23 21:14:10 info: =================================
+2022-01-23 21:14:16 info: 
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      
+      
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+2022-01-23 21:14:16 info: 
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args(includeDeprecated: true) {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args(includeDeprecated: true) {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields(includeDeprecated: true) {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      isDeprecated
+      deprecationReason
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+2022-01-23 21:14:16 info: 
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args(includeDeprecated: true) {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args(includeDeprecated: true) {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields(includeDeprecated: true) {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      isDeprecated
+      deprecationReason
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+2022-01-23 21:14:17 info: 
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args(includeDeprecated: true) {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args(includeDeprecated: true) {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields(includeDeprecated: true) {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      isDeprecated
+      deprecationReason
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+2022-01-23 21:14:18 info: 
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args(includeDeprecated: true) {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args(includeDeprecated: true) {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields(includeDeprecated: true) {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      isDeprecated
+      deprecationReason
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+2022-01-23 21:14:19 info: 
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args(includeDeprecated: true) {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args(includeDeprecated: true) {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields(includeDeprecated: true) {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      isDeprecated
+      deprecationReason
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+2022-01-23 21:14:20 info: 
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args(includeDeprecated: true) {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args(includeDeprecated: true) {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields(includeDeprecated: true) {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      isDeprecated
+      deprecationReason
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+2022-01-23 21:14:21 info: 
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args(includeDeprecated: true) {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args(includeDeprecated: true) {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields(includeDeprecated: true) {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      isDeprecated
+      deprecationReason
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+2022-01-23 21:14:22 info: 
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args(includeDeprecated: true) {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args(includeDeprecated: true) {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields(includeDeprecated: true) {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      isDeprecated
+      deprecationReason
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+2022-01-23 21:14:23 info: 
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args(includeDeprecated: true) {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args(includeDeprecated: true) {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields(includeDeprecated: true) {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      isDeprecated
+      deprecationReason
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+2022-01-23 21:14:24 info: 
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args(includeDeprecated: true) {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args(includeDeprecated: true) {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields(includeDeprecated: true) {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      isDeprecated
+      deprecationReason
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+2022-01-23 21:14:25 info: 
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args(includeDeprecated: true) {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args(includeDeprecated: true) {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields(includeDeprecated: true) {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      isDeprecated
+      deprecationReason
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+2022-01-23 21:14:26 info: 
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args(includeDeprecated: true) {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args(includeDeprecated: true) {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields(includeDeprecated: true) {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      isDeprecated
+      deprecationReason
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+2022-01-23 21:14:27 info: 
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args(includeDeprecated: true) {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args(includeDeprecated: true) {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields(includeDeprecated: true) {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      isDeprecated
+      deprecationReason
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+2022-01-23 21:14:28 info: 
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args(includeDeprecated: true) {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args(includeDeprecated: true) {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields(includeDeprecated: true) {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      isDeprecated
+      deprecationReason
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+2022-01-23 21:14:29 info: 
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args(includeDeprecated: true) {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args(includeDeprecated: true) {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields(includeDeprecated: true) {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      isDeprecated
+      deprecationReason
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+2022-01-23 21:14:30 info: 
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args(includeDeprecated: true) {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args(includeDeprecated: true) {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields(includeDeprecated: true) {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      isDeprecated
+      deprecationReason
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+2022-01-23 21:14:31 info: 
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args(includeDeprecated: true) {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args(includeDeprecated: true) {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields(includeDeprecated: true) {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      isDeprecated
+      deprecationReason
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+2022-01-23 21:14:36 info: 
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args(includeDeprecated: true) {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args(includeDeprecated: true) {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields(includeDeprecated: true) {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      isDeprecated
+      deprecationReason
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+2022-01-23 21:15:55 info: =================================
+2022-01-23 21:15:55 info: ======= ENV: development =======
+2022-01-23 21:15:55 info: 🚀 App listening on the port 4000
+2022-01-23 21:15:55 info: 🎮 http://localhost:4000/graphql
+2022-01-23 21:15:55 info: =================================
+2022-01-23 21:45:00 info: 
+    query IntrospectionQuery {
+      __schema {
+        
+        queryType { name }
+        mutationType { name }
+        subscriptionType { name }
+        types {
+          ...FullType
+        }
+        directives {
+          name
+          description
+          
+          locations
+          args(includeDeprecated: true) {
+            ...InputValue
+          }
+        }
+      }
+    }
+
+    fragment FullType on __Type {
+      kind
+      name
+      description
+      
+      fields(includeDeprecated: true) {
+        name
+        description
+        args(includeDeprecated: true) {
+          ...InputValue
+        }
+        type {
+          ...TypeRef
+        }
+        isDeprecated
+        deprecationReason
+      }
+      inputFields(includeDeprecated: true) {
+        ...InputValue
+      }
+      interfaces {
+        ...TypeRef
+      }
+      enumValues(includeDeprecated: true) {
+        name
+        description
+        isDeprecated
+        deprecationReason
+      }
+      possibleTypes {
+        ...TypeRef
+      }
+    }
+
+    fragment InputValue on __InputValue {
+      name
+      description
+      type { ...TypeRef }
+      defaultValue
+      isDeprecated
+      deprecationReason
+    }
+
+    fragment TypeRef on __Type {
+      kind
+      name
+      ofType {
+        kind
+        name
+        ofType {
+          kind
+          name
+          ofType {
+            kind
+            name
+            ofType {
+              kind
+              name
+              ofType {
+                kind
+                name
+                ofType {
+                  kind
+                  name
+                  ofType {
+                    kind
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  

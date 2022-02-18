@@ -1,0 +1,61 @@
+2022-01-24 00:53:08 error: Cannot query field "tokenData" on type "User".
+2022-01-24 00:56:26 error: uncaughtException: Unable to infer GraphQL type from TypeScript reflection system. You need to provide explicit type for 'tokenData' of 'LoginResponse' class.
+Error: Unable to infer GraphQL type from TypeScript reflection system. You need to provide explicit type for 'tokenData' of 'LoginResponse' class.
+    at Object.findType (C:\dev\Outsource\possap-backend\node_modules\type-graphql\dist\helpers\findType.js:19:15)
+    at C:\dev\Outsource\possap-backend\node_modules\type-graphql\dist\decorators\Field.js:16:53
+    at DecorateProperty (C:\dev\Outsource\possap-backend\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (C:\dev\Outsource\possap-backend\node_modules\reflect-metadata\Reflect.js:123:24)
+    at __decorate (C:\dev\Outsource\possap-backend\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (C:\dev\Outsource\possap-backend\src\typedefs\users.type.ts:25:3)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Module.m._compile (C:\dev\Outsource\possap-backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\dev\Outsource\possap-backend\node_modules\ts-node\src\index.ts:1374:12)
+2022-01-24 00:58:41 error: uncaughtException: Unable to infer GraphQL type from TypeScript reflection system. You need to provide explicit type for 'tokenData' of 'LoginResponse' class.
+Error: Unable to infer GraphQL type from TypeScript reflection system. You need to provide explicit type for 'tokenData' of 'LoginResponse' class.
+    at Object.findType (C:\dev\Outsource\possap-backend\node_modules\type-graphql\dist\helpers\findType.js:19:15)
+    at C:\dev\Outsource\possap-backend\node_modules\type-graphql\dist\decorators\Field.js:16:53
+    at DecorateProperty (C:\dev\Outsource\possap-backend\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (C:\dev\Outsource\possap-backend\node_modules\reflect-metadata\Reflect.js:123:24)
+    at __decorate (C:\dev\Outsource\possap-backend\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (C:\dev\Outsource\possap-backend\src\typedefs\users.type.ts:25:3)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Module.m._compile (C:\dev\Outsource\possap-backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\dev\Outsource\possap-backend\node_modules\ts-node\src\index.ts:1374:12)
+2022-01-24 00:59:38 error: uncaughtException: Unable to infer GraphQL type from TypeScript reflection system. You need to provide explicit type for 'tokenData' of 'LoginResponse' class.
+Error: Unable to infer GraphQL type from TypeScript reflection system. You need to provide explicit type for 'tokenData' of 'LoginResponse' class.
+    at Object.findType (C:\dev\Outsource\possap-backend\node_modules\type-graphql\dist\helpers\findType.js:19:15)
+    at C:\dev\Outsource\possap-backend\node_modules\type-graphql\dist\decorators\Field.js:16:53
+    at DecorateProperty (C:\dev\Outsource\possap-backend\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (C:\dev\Outsource\possap-backend\node_modules\reflect-metadata\Reflect.js:123:24)
+    at __decorate (C:\dev\Outsource\possap-backend\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (C:\dev\Outsource\possap-backend\src\typedefs\users.type.ts:25:3)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Module.m._compile (C:\dev\Outsource\possap-backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\dev\Outsource\possap-backend\node_modules\ts-node\src\index.ts:1374:12)
+2022-01-24 01:00:05 error: uncaughtException: Unable to infer GraphQL type from TypeScript reflection system. You need to provide explicit type for 'tokenData' of 'LoginResponse' class.
+Error: Unable to infer GraphQL type from TypeScript reflection system. You need to provide explicit type for 'tokenData' of 'LoginResponse' class.
+    at Object.findType (C:\dev\Outsource\possap-backend\node_modules\type-graphql\dist\helpers\findType.js:19:15)
+    at C:\dev\Outsource\possap-backend\node_modules\type-graphql\dist\decorators\Field.js:16:53
+    at DecorateProperty (C:\dev\Outsource\possap-backend\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (C:\dev\Outsource\possap-backend\node_modules\reflect-metadata\Reflect.js:123:24)
+    at __decorate (C:\dev\Outsource\possap-backend\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (C:\dev\Outsource\possap-backend\src\typedefs\users.type.ts:25:3)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Module.m._compile (C:\dev\Outsource\possap-backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\dev\Outsource\possap-backend\node_modules\ts-node\src\index.ts:1374:12)
+2022-01-24 01:00:42 error: uncaughtException: Unable to infer GraphQL type from TypeScript reflection system. You need to provide explicit type for 'tokenData' of 'LoginResponse' class.
+Error: Unable to infer GraphQL type from TypeScript reflection system. You need to provide explicit type for 'tokenData' of 'LoginResponse' class.
+    at Object.findType (C:\dev\Outsource\possap-backend\node_modules\type-graphql\dist\helpers\findType.js:19:15)
+    at C:\dev\Outsource\possap-backend\node_modules\type-graphql\dist\decorators\Field.js:16:53
+    at DecorateProperty (C:\dev\Outsource\possap-backend\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (C:\dev\Outsource\possap-backend\node_modules\reflect-metadata\Reflect.js:123:24)
+    at __decorate (C:\dev\Outsource\possap-backend\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (C:\dev\Outsource\possap-backend\src\typedefs\users.type.ts:25:3)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Module.m._compile (C:\dev\Outsource\possap-backend\node_modules\ts-node\src\index.ts:1371:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\dev\Outsource\possap-backend\node_modules\ts-node\src\index.ts:1374:12)

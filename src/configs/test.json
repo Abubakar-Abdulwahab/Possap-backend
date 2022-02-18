@@ -1,0 +1,19 @@
+{
+    "env": "test",
+    "dbConfig": {
+        "host": "localhost",
+        "user": "postgres",
+        "port": 9000,
+        "password": "root",
+        "database": "postgres"
+    },
+    "secretKey": "secretKey",
+    "log": {
+        "format": "dev",
+        "dir": "../logs"
+    },
+    "cors": {
+        "origin": true,
+        "credentials": true
+    }
+}

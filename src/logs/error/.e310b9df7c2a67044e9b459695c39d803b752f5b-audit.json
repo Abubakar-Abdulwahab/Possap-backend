@@ -1,0 +1,24 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\dev\\Outsource\\possap-backend\\src\\logs\\error\\.e310b9df7c2a67044e9b459695c39d803b752f5b-audit.json",
+    "files": [
+        {
+            "date": 1642583989181,
+            "name": "C:\\dev\\Outsource\\possap-backend\\src\\logs\\error\\2022-01-19.log",
+            "hash": "d96ee1c3e82ce5636c990acdc86238b0"
+        },
+        {
+            "date": 1642956223256,
+            "name": "C:\\dev\\Outsource\\possap-backend\\src\\logs\\error\\2022-01-23.log",
+            "hash": "0d0bdfcdbb640c5a0d316e62b487b79c"
+        },
+        {
+            "date": 1642978933512,
+            "name": "C:\\dev\\Outsource\\possap-backend\\src\\logs\\error\\2022-01-24.log",
+            "hash": "bea1b1e400aac2a01c8d9083129f0504"
+        }
+    ]
+}
